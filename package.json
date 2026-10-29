@@ -6,12 +6,26 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "agent": "tsx agent.ts"
   },
   "dependencies": {
+    "@livekit/agents": "^1.9.0",
+    "@livekit/agents-plugin-cartesia": "^1.9.0",
+    "@livekit/agents-plugin-deepgram": "^1.9.0",
+    "@livekit/agents-plugin-google": "^1.9.0",
+    "@livekit/agents-plugin-openai": "^1.9.0",
+    "@livekit/agents-plugin-silero": "^1.9.0",
+    "@livekit/components-react": "^2.9.24",
+    "@livekit/components-styles": "^1.2.0",
+    "dotenv": "^18.0.1",
+    "livekit-client": "^2.22.3",
+    "livekit-server-sdk": "^2.19.0",
+    "lucide-react": "^1.47.0",
     "next": "16.3.5",
     "react": "19.2.8",
-    "react-dom": "19.2.8"
+    "react-dom": "19.2.8",
+    "tsx": "^4.23.13"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
